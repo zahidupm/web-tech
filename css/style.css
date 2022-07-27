@@ -5,3 +5,51 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.slider-area{
+    position: relative;
+    z-index: 99;
+}
+.slider-area:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    content: "";
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive css  */
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .popular-image img{
+        width: 100%;
+    }
+}
