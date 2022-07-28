@@ -76,6 +76,10 @@ footer{
     bottom: 14rem;
 }
 
+.slider-img{
+    filter: brightness(.4);
+}
+
 
 
 
