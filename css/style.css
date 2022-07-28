@@ -1,9 +1,9 @@
 /* fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
 /* common css */
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .slider-area{
     position: relative;
@@ -18,6 +18,15 @@ body{
     background-color: black;
     content: "";
     opacity: .7;
+}
+.web-tech-course{
+    background-color: #F4FAFD;
+}
+.join-area{
+    padding: 80px 100px;
+}
+button.registration{
+    display: none;
 }
 
 
@@ -38,7 +47,15 @@ body{
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    
+    
+    button.register {
+        display: none;
+    }
+    
+    button.registration {
+        display: block;
+    }
     
 }
 /* Mobile Layout: 320px. */
@@ -46,6 +63,16 @@ body{
     .popular-image img{
         min-width: 100%;
         max-height: 220px;
+    }
+    .join-area{
+        flex-direction: column;
+    }
+    button.register {
+        display: none;
+    }
+    
+    button.registration {
+        display: block;
     }
     
 }
